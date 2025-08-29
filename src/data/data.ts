@@ -78,4 +78,15 @@ export const footerData = [
   },
 ];
 
+export const contactData = [
+  {
+    title: "contact.title",
+    name: "contact.name",
+    email: "contact.email",
+    message: "contact.message",
+    address: "contact.address",
+    addressa: "contact.addressa",
+  },
+];
+
 export default navData;

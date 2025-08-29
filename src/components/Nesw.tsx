@@ -15,7 +15,7 @@ const Nesw = () => {
             <p className="font-semibold text-6xl text-center mt-[140px]">
               {t(a.title)}
             </p>
-            <div className="flex gap-10 mt-[50px]">
+            <div className="flex gap-10 mt-[50px] mb-[80px]">
               <div className="w-[400px] rounded-2xl shadow-2xl h-[380px]">
                 <img src="/Rectangle_4038.png" className="w-[400px]" alt="" />
 
