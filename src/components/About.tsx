@@ -1,4 +1,3 @@
-import React from "react";
 import { featuress, stats } from "../data/data";
 import Layout from "./Layout";
 import { useLang } from "../hooks/changeLang";

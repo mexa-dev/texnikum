@@ -1,4 +1,3 @@
-import React from "react";
 import { courseCards } from "../data/data";
 import { useLang } from "../hooks/changeLang";
 import { Link } from "react-router-dom";

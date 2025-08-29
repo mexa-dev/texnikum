@@ -1,4 +1,3 @@
-import React from "react";
 import { footerData } from "../data/data";
 import { useLang } from "../hooks/changeLang";
 import { MapPin, Phone } from "lucide-react";

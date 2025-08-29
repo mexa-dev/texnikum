@@ -1,4 +1,3 @@
-import React from "react";
 import { news } from "../data/data";
 import { useLang } from "../hooks/changeLang";
 import Layout from "./Layout";

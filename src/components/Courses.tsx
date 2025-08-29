@@ -1,5 +1,4 @@
-import React from "react";
-import { news, stats } from "../data/data";
+import { stats } from "../data/data";
 import CourseCards from "./CourseCards";
 import { useLang } from "../hooks/changeLang";
 import Layout from "./Layout";
