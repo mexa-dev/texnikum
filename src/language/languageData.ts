@@ -63,6 +63,10 @@ i18n.use(initReactI18next).init({
           address: "Bizning manzil",
           addressa: "Angor tumani Qorasuv MFY",
         },
+        comp: {
+          madeBy:
+            "RecordMir companyasi hodimi Mexa tomonidan yasalgan web-sayt",
+        },
       },
     },
     ru: {
@@ -127,6 +131,10 @@ i18n.use(initReactI18next).init({
           address: "Наш адрес",
           addressa: "Ангорский район, махалля Карасув",
         },
+        comp: {
+          madeBy:
+            "Веб-сайт создан сотрудником компании RecordMir по имени Mexa",
+        },
       },
     },
     en: {
@@ -188,6 +196,10 @@ i18n.use(initReactI18next).init({
           message: "Message",
           address: "Our Address",
           addressa: "Karasuv neighborhood, Angor district",
+        },
+        comp: {
+          madeBy:
+            "The website was created by Mexa, an employee of RecordMir company",
         },
       },
     },

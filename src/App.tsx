@@ -5,7 +5,6 @@ import About from "./components/About";
 import Courses from "./components/Courses";
 import Nesw from "./components/Nesw";
 import Contact from "./components/Contact";
-import "./index.css";
 
 const App = () => {
   return (
