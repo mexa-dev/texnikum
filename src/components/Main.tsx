@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <>
       {/* Hero Section */}
-      {heroTitle.map((a, i) => (
+      {heroTitle.map((a) => (
         <section className="relative w-full h-[80vh] md:h-[120vh] flex items-center justify-center text-center text-white">
           <img
             src="/Rectangle_4025.png"
