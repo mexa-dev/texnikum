@@ -10,7 +10,6 @@ const Main = () => {
 
   return (
     <>
-      {/* Hero Section */}
       {heroTitle.map((a) => (
         <section className="relative w-full h-[80vh] md:h-[120vh] flex items-center justify-center text-center text-white">
           <img
@@ -36,7 +35,6 @@ const Main = () => {
         </section>
       ))}
 
-      {/* Features */}
       {featuress.map((v, i) => (
         <Layout key={i}>
           <p className="text-2xl sm:text-3xl md:text-4xl text-[#004790] w-full md:w-[999px] mt-[60px] md:mt-[100px] font-semibold text-center md:text-left px-4">
@@ -62,7 +60,6 @@ const Main = () => {
         </Layout>
       ))}
 
-      {/* Stats */}
       <div className="px-6 md:px-[150px] py-10 bg-[#01328E] mt-[50px] md:mt-[70px]">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
           {stats.map((a, i) => (
@@ -96,7 +93,6 @@ const Main = () => {
         </div>
       </div>
 
-      {/* Courses */}
       <Layout>
         {stats.map((a) => (
           <p
@@ -118,7 +114,6 @@ const Main = () => {
           </div>
         ))}
 
-        {/* News */}
         {news.map((a, i) => (
           <div key={i}>
             <p className="text-[#004790] font-semibold text-3xl sm:text-4xl md:text-6xl mt-[50px] md:mt-[80px] text-center md:text-left">
